@@ -1,0 +1,12 @@
+{
+  "name": "kelvis-react",
+  "displayName": "kelvis-react",
+  "expo": {
+    "name": "kelvis-react",
+    "slug": "kelvis-react",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
