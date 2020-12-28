@@ -1,4 +1,4 @@
-package com.kelvisreact;
+package com.foojiayin.kelvis;
 
 import android.os.Bundle;
 

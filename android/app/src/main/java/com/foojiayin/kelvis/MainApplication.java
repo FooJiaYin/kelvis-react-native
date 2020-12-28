@@ -1,4 +1,4 @@
-package com.kelvisreact;
+package com.foojiayin.kelvis;
 
 import android.app.Application;
 import android.content.Context;
@@ -11,7 +11,7 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
 import com.facebook.soloader.SoLoader;
-import com.kelvisreact.generated.BasePackageList;
+import com.foojiayin.kelvis.generated.BasePackageList;
 
 import org.unimodules.adapters.react.ReactAdapterPackage;
 import org.unimodules.adapters.react.ModuleRegistryAdapter;
@@ -102,7 +102,7 @@ public class MainApplication extends Application implements ReactApplication {
          We use reflection here to pick up the class that initializes Flipper,
         since Flipper library is not available in release mode
         */
-        Class<?> aClass = Class.forName("com.kelvisreact.ReactNativeFlipper");
+        Class<?> aClass = Class.forName("com.foojiayin.kelvis.ReactNativeFlipper");
         aClass
             .getMethod("initializeFlipper", Context.class, ReactInstanceManager.class)
             .invoke(null, context, reactInstanceManager);
